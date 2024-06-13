@@ -87,5 +87,8 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- 
+# Starter Project
+I started with the Blue Stamp Arduino starter project. This project required creating a circuit and reading/writing input/output using a sensor and output of my choice. I used a button as the input and made the LED flash as the output. I wrote the code using the if/else statement to control the LED flashing speed and to make it flash when I press the button. Additionally, I learned how to solder in order to assemble and solder the circuit onto the shield.
 
 To watch the BSE tutorial on how to create a portfolio, click here.
