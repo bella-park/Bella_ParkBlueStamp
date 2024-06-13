@@ -1,4 +1,4 @@
-# Project Name Here
+# Three Joint Robotic Arm
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -87,5 +87,8 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+
+# The Starter Project
+For my starter project, I worked on the Blue Stamp Arduino starter project. This project involved creating a circuit and using input and output components of my choice. I selected a button as the input and made an LED flash as the output. I wrote the code using the if/else statement to control the LED flashing and to make it flash when I pressed the button. In addition to that, I learned how to assemble and solder the circuit onto the shield.
 
 To watch the BSE tutorial on how to create a portfolio, click here.
