@@ -1,21 +1,20 @@
 # Three Joint Robotic Arm
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+<!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!-->
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+<!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
 <!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Bella P | Valley Christian High School | Electrical Engineering | Incoming Sopomore 
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
 
 ![Headstone Image](logo.svg)
   
-# Final Milestone
+<!---# Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -25,11 +24,11 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- What you hope to learn in the future after everything you've learned at BSE-->
 
 
 
-# Second Milestone
+<!---# Second Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
@@ -54,25 +53,31 @@ For your first milestone, describe what your project is and how you plan to buil
 - What your plan is to complete your project
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+IR_receive code for testing the Nano shield by using libraries
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
+#include <IRremote.h>
+int RECV_PIN = 8;
+IRrecv irrecv(RECV_PIN);
+decode_results results;
+void setup()
+{
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  irrecv.enableIRIn(); // Start the receiver
 }
-
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  if (irrecv.decode(&results)) {
+    Serial.println(results.value, HEX);
+    irrecv.resume(); // Receive the next value
+  }
 }
+
 ```
 
-# Bill of Materials
+<!---# Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
@@ -86,9 +91,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)-->
 
 # The Starter Project
+
+"Starter Project Milestone"
+"https://youtu.be/dq6Jd1STb3g?feature=shared"
+
 For my starter project, I worked on the Blue Stamp Arduino starter project. This project involved creating a circuit and using input and output components of my choice. I selected a button as the input and made an LED flash as the output. I wrote the code using the if/else statement to control the LED flashing speed and to make it flash when I pressed the button.  In addition to that, I learned how to assemble and solder the circuit onto the shield. However, I had some challenge on wiring. I got the worng output becuase I connected the wires into power. I solved the problem by reconnecting the wires to 5V and GND.
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+<!---To watch the BSE tutorial on how to create a portfolio, click here.-->
