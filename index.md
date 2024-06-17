@@ -96,7 +96,7 @@ One of the best parts about Github is that you can view how other people set up 
 # The Starter Project
 
 "Starter Project Milestone"
-"https://youtu.be/dq6Jd1STb3g?feature=shared"
+https://youtu.be/dq6Jd1STb3g?feature=shared
 
 For my starter project, I worked on the Blue Stamp Arduino starter project. This project involved creating a circuit and using input and output components of my choice. I selected a button as the input and made an LED flash as the output. I wrote the code using the if/else statement to control the LED flashing speed and to make it flash when I pressed the button.  In addition to that, I learned how to assemble and solder the circuit onto the shield. However, I had some challenge on wiring. I got the worng output becuase I connected the wires into power. I solved the problem by reconnecting the wires to 5V and GND.
 
