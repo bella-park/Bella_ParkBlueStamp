@@ -52,8 +52,8 @@ In my first milestone, I set up the Arduino and updated the initial sketch to th
 - What your plan is to complete your project-->
 
 # Schematics 
-The wiring diagram for the servo and the Joycon
-
+The wiring diagram for the joycon and the servo
+![Schematics Image](Screenshot 2024-06-18 154748.png)
 
 
 # Code
