@@ -29,7 +29,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 # Second Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BGMt1I7PrR0?si=X9dJODo30s2QhpGu"" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BGMt1I7PrR0?si=X9dJODo30s2QhpGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 For my second milestone, I tested the Joystick module, tested the servo, and assembled my robot arm. When testing the servo,
 I made the servo move as the output of my code. The input was the number, and the servo would move depending on the number I input. When I put 1 as the input, the servo moves to an angle of 10°, and if 2, it moves to 20°, 3 to 60°, 4 to 80°, 5 to 100°, 6 to 120°, 7 to 140°, 8 to 160°. The code used the function of loops, enabling it to repeat the specific part of the code until something that makes the loop stop happens. Next, I assembled the robot arm. The servos are used to join the robot. For the next milestone, I will test the robot and test the code for the servos. Also, I will wire the Joystick and the servos to the robot.
 
