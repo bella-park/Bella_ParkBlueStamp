@@ -10,6 +10,7 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 |:--:|:--:|:--:|:--:|
 | Bella P | Valley Christian High School | Electrical Engineering | Incoming Sopomore 
 
+
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
 
 ![Headstone Image](logo.svg)
@@ -33,6 +34,9 @@ For your final milestone, explain the outcome of your project. Key details to in
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+For my second milestone, I tested the Joystick module, tested the servo, and assembled my robot arm. When testing the servo,
+I made the servo move as the output of my code. The input was the number, and the servo would move depending on the number I input. When I put 1 as the input, the servo moves to an angle of 10°, and if 2, it moves to 20°, 3 to 60°, 4 to 80°, 5 to 100°, 6 to 120°, 7 to 140°, 8 to 160°. The code used the function of loops, enabling it to repeat the specific part of the code until something that makes the loop stop happens. Next, I assembled the robot arm. The servos are used to join the robot. For the next milestone, I will test the robot and test the code for the servos. Also, I will wire the Joystick and the servos to the robot.
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
