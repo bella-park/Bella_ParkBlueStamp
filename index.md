@@ -252,7 +252,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Robot Arm Building Kit | Kit for the Three Joint Robot Arm | $49.99 | https://a.co/d/gg8BK4x |
 | SG90 Servo | Servos 2,3,4 | $6.99 | https://a.co/d/0dJCQ7gg |
 | MG90S Servo | Servo 1 | $6.59 | https://a.co/d/0dDNN2uW |
-| AA beteries | Beteries for the Robot Arm | $6.82 | https://a.co/d/09CCthYv |
+| AA betteries | Betteries for the Robot Arm | $6.82 | https://a.co/d/09CCthYv |
 
 
 <!---# Other Resources/Examples
