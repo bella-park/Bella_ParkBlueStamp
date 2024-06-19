@@ -41,7 +41,7 @@ I made the servo move as the output of my code. The input was the number, and th
 
 # First Milestone
 
-<iframe width="560" height="315" src="https://youtu.be/O78C4y5oDm4?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O78C4y5oDm4?si=DYiu9iVT98YjHR6n"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 In my first milestone, I set up the Arduino and updated the initial sketch to the Nano. The Nano motherboard flashed once every second as the output of the sketch. The first sketch involved digital code, causing the LED to flash every second because digital code only has highs and lows, unlike analog. Next, I tested the Nano shield and encountered some problems. When I entered the code, it didn't work because the library wasn't installed on my Arduino, and the code required the library to function. After installing the library, the code started working. For my next milestone, I will focus on testing the Joystick module, testing the servo, and making it move. Additionally, I will work on assembling the robot arm.
 
