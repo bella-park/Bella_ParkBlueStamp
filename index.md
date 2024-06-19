@@ -61,11 +61,7 @@ Here's where you'll put your code. The syntax below places it into a block of co
 
 ```c++
 /*
- * This code applies to cokoino mechanical arm
- * Through this link you can download the source code:
- * https://github.com/Cokoino/CKK0006
- * Company web site:
- * http://cokoino.com/
+ * 
  *                                     ________
  *                         ----|servo4| 
  *                        |            --------
