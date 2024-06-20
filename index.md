@@ -15,15 +15,18 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 
 ![Headstone Image](logo.svg)
   
-<!---# Final Milestone
+# Final Milestone
 
-<iframe width="560" height="315" src="https://youtu.be/BGMt1I7PrR0?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!---<iframe width="560" height="315" src="https://youtu.be/BGMt1I7PrR0?feature=shared" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 For my fianl milestone, I completed the Three Joint Robotic Arm. To finish the project, I finished to connect the wire to the Joystick. Also, I wired the servos to the arduino. 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE-->
+
+For my final milestone, I completed the Three Joint Robotic Arm. To finish the project, I finished connecting the wire to the Joystick. Also, I wired the servos to the nano bo. The Joystick is connected to the nano board and controls the Robot arm. Each direction has its function. Direction 1 makes the robot lean forward. Direction 2 makes the robot lean backward. Direction 3 makes the robot spin counterclockwise. Direction 4 makes the robot spin clockwise. Direction 5 makes the robot arm's claw close. Direction 6 makes the robot arm's claw to open. Direction 7 makes the robot record the action. The program inside the robot arm allows the robot arm to record up to 10 actions. The buzzer will sound once, and then it will record ten actions repeatedly. After ten actions are completed, the buzzer will sound again. Lastly, Direction 8 makes the robot arm perform recorded actions. The buzzer will sound, and the robot will perform the recorded action; after the action is completed, the buzzer will sound again.
+I faced some challenges when I connected the servo wires. I did not realize that the wires would be matched when connected to the nano board by order of grond-power-controller. But after connecting the wire with the matched spot. The code worked. Throughout this project, I was able to learn about the basics of coding through testing the Arduino, nano shield, Joystick, servos, and more. I was able to acquire basic knowledge of engineering by assembling the robot arm. I hope to learn more detailed coding after BSE and have the opportunity to engineer more advanced projects. Also, I will wire the Joystick and the servos to the robot.
 
 
 
