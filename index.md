@@ -17,7 +17,8 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
   
 # Final Milestone
 
-iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/J8AVeVxN4Ks?si=VVTKKr-3qQTgz9Nr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J8AVeVxN4Ks?si=VVTKKr-3qQTgz9Nr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 
 For my final milestone, I completed the Three Joint Robotic Arm. To finish the project, I finished connecting the wire to the Joystick. Also, I wired the servos to the nano bo. The Joystick is connected to the nano board and controls the Robot arm. Each direction has its function. Direction 1 makes the robot lean forward. Direction 2 makes the robot lean backward. Direction 3 makes the robot spin counterclockwise. Direction 4 makes the robot spin clockwise. Direction 5 makes the robot arm's claw close. Direction 6 makes the robot arm's claw to open. Direction 7 makes the robot record the action. The program inside the robot arm allows the robot arm to record up to 10 actions. The buzzer will sound once, and then it will record ten actions repeatedly. After ten actions are completed, the buzzer will sound again. Lastly, Direction 8 makes the robot arm perform recorded actions. The buzzer will sound, and the robot will perform the recorded action; after the action is completed, the buzzer will sound again.
