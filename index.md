@@ -56,6 +56,7 @@ The wiring diagram for the joycon and the servo
 ![Schematics Image](0618.png)
 ![Schematics Image](0619.png)
 
+- Three Joint Robot Arm Lesson 6,7
 
 # Code
 <!---Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.-->
