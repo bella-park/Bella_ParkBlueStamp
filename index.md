@@ -13,7 +13,7 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
 
-![Bella_P_Image](Bella_P.heic)
+![Headstone Image](Bella_P.heic)
 
 # Modification
 
