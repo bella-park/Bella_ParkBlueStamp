@@ -219,13 +219,13 @@ In my first milestone, I set up the Arduino and updated the initial sketch to th
 # Schematics 
 The wiring diagram for the joystick and the servo
 ![Schematics Image](0618.png)
--Figure 2 Robot arm joystick wiring schematics
+- Figure 2 Robot arm joystick wiring schematics
 ![Schematics Image](0619.png)
 - Figure 3 Robot arm servo wiring schematics
 ![Schematics Image](444.png)
 - Figure 4 The Nano shield schematics
 
-- Three Joint Robot Arm Lesson 6,7
+  *Three Joint Robot Arm Lesson 3,6,7
 
 # Code
 <!---Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.-->
