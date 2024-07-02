@@ -21,7 +21,153 @@ For my modification, I chose to make a smartphone app that can control the robot
 
 # Code
 ![blockcode_Image](blockcode.png)
+# Code
+Arduino code for the smartphone controlled robot
+```
+#include "SoftwareSerial.h"
+#include <Servo.h>
+
+SoftwareSerial bt(2,10);
+
+int input;
+
+Servo rotation; // pin 4 (left, right) (LR)
+Servo lower; // pin 5 (forward, backward) (FB)
+Servo upper; // pin 6 (forward, backward but on top) (UD for up down)
+Servo claw; // pin 7 (open, close) (OC)
+
+int rotation_pos = 90;
+int lower_pos = 90;
+int upper_pos = 90;
+int claw_pos = 90;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  bt.begin(9600);
+
+  rotation.attach(4);
+  lower.attach(5);
+  upper.attach(6);
+  claw.attach(7);
+
+  rotation.write(rotation_pos);
+  lower.write(lower_pos);
+  upper.write(upper_pos);
+  claw.write(claw_pos);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  // testing maximum servo rotation
+  /*
+  for (int i = 0; i < 180; i++) {
+    rotation.write(i);
+    delay(50);
+  }
+  for (int i = 180; i > 0; i--) {
+    rotation.write(i);
+    delay(50);
+  }
+  delay(50);
+  */
   
+  if(bt.available()) {
+    input = bt.read();
+    Serial.write(input);
+    Serial.println();
+    // LR is rotation servo
+    if (input == 'L') {
+      rotation_pos += 15;
+      if (rotation_pos > 180) {
+        rotation_pos = 180;
+      }
+      rotation.write(rotation_pos);
+      Serial.println("rotation moved to: ");
+      Serial.print(rotation_pos);
+      Serial.println();
+    }
+    else if (input == 'R') {
+      rotation_pos -= 15;
+      if (rotation_pos < 0) {
+        rotation_pos = 0;
+      }
+      rotation.write(rotation_pos);
+      Serial.println("rotation moved to: ");
+      Serial.print(rotation_pos);
+      Serial.println();
+    }
+    // FB is lower servo
+    else if (input == 'F') {
+      lower_pos += 15;
+      // changed lower_pos max to 135 (any more and it crushes the cables / also don't want to break bottom servo cables)
+      if (lower_pos > 135) {
+        lower_pos = 135;
+      }
+      lower.write(lower_pos);
+      Serial.println("lower arm moved to: ");
+      Serial.print(lower_pos);
+      Serial.println();
+    }
+    else if (input == 'B') {
+      lower_pos -= 15;
+      if (lower_pos < 0) {
+        lower_pos = 0;
+      }
+      lower.write(lower_pos);
+      Serial.println("lower arm moved to: ");
+      Serial.print(lower_pos);
+      Serial.println();
+    }
+    // OC is claw servo
+    else if (input == 'O') {
+      claw_pos += 15;
+      if (claw_pos > 165) {
+        claw_pos = 165;
+      }
+      claw.write(claw_pos);
+      Serial.println("claw moved to: ");
+      Serial.print(claw_pos);
+      Serial.println();
+    }
+    else if (input == 'C') {
+      claw_pos -= 15;
+      if (claw_pos < 0) {
+        claw_pos = 0;
+      }
+      claw.write(claw_pos);
+      Serial.println("claw moved to: ");
+      Serial.print(claw_pos);
+      Serial.println();
+    }
+    // UD is upper servo
+    else if (input == 'U') {
+      upper_pos += 15;
+      if (upper_pos > 180) {
+        upper_pos = 180;
+      }
+      upper.write(upper_pos);
+      Serial.println("upper arm moved to: ");
+      Serial.print(upper_pos);
+      Serial.println();
+    }
+    else if (input == 'D') {
+      upper_pos -= 15;
+      if (upper_pos < 0) {
+        upper_pos = 0;
+      }
+      upper.write(upper_pos);
+      Serial.println("upper arm moved to: ");
+      Serial.print(upper_pos);
+      Serial.println();
+    }
+    else {
+      // do nothing
+      // this isn't needed but looks neater
+    }
+  }
+}
+```
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J8AVeVxN4Ks?si=VVTKKr-3qQTgz9Nr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
