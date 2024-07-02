@@ -11,7 +11,7 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 | Bella P | Valley Christian High School | Electrical Engineering | Incoming 
 
 
-<img src="222.png" width="600" height="800">
+<img src="222.png" width="300" height="400">
 
 # Modification
 
