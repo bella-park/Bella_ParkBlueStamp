@@ -12,15 +12,16 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.** -->
-
+<div style="width: 50%; height: 50%:>
 ![Bella_P_Image](222.png)
+  </div>
 
 # Modification
 
 For my modification, I chose to make a smartphone app that can control the robot arm.
 
 # Final Smartphone App
-![app_Image](111.jpg =100*100)
+![app_Image](111.jpg)
 
 # Blockcode
 ![blockcode_Image](000.png)
