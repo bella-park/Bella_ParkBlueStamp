@@ -18,7 +18,7 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 For my modification, I chose to make a smartphone app that can control the robot arm.
 
 # Final Smartphone App
-![app_image](111.jpg)
+
 <img src="111.jpg" width="485" height="861">
 
 # Blockcode
