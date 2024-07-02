@@ -410,11 +410,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 | AA betteries | Betteries for the Robot Arm | $6.82 | https://a.co/d/09CCthYv |
 
 
-<!---# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)-->
+# Other Resources
+- [Resource 1](https://docs.arduino.cc/built-in-examples/digital/Button/) Arduino wire and program button
+- [Resource 2](https://www.circuitgeeks.com/arduino-push-button-tutorial/) Arduino LED button tutorial
+- [Resource 3](https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-05-bluetooth-module-tutorial/) Arduino bluetooth communication
 
 # The Starter Project
 
