@@ -222,6 +222,8 @@ The wiring diagram for the joystick and the servo
 -Figure 2 Robot arm joystick wiring schematics
 ![Schematics Image](0619.png)
 - Figure 3 Robot arm servo wiring schematics
+![Schematics Image](444.png)
+- Figure 4 The Nano shield schematics
 
 - Three Joint Robot Arm Lesson 6,7
 
