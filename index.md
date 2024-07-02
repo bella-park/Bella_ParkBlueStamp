@@ -19,7 +19,7 @@ For my modification, I chose to make a smartphone app that can control the robot
 
 # Final Smartphone App
 
-<img src="111.jpg" width="485" height="861">
+<img src="111.jpg" width="377" height="679">
 
 # Blockcode
 ![blockcode_Image](000.png)
