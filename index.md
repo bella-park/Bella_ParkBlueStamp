@@ -179,6 +179,10 @@ void loop() {
   }
 }
 ```
+# Challenge
+
+While making modifications, I faced a few challenges. Initially, the Bluetooth module and the Arduino code couldn't communicate. After troubleshooting, I discovered that the battery didn't provide enough power for the Bluetooth module. Additionally, I encountered issues with the Bluetooth and the app disconnecting after creating the joystick smartphone app. Finally, coding was a significant challenge in this modification because it involved various new concepts, and I hadn't yet learned how to merge two different codes. However, with the help of instructors, I successfully created a code that could control both the joystick and the Bluetooth simultaneously.
+
 
 # Final Milestone
 
