@@ -27,6 +27,7 @@ For my modification, I chose to make a smartphone app that can control the robot
 
 # Blockcode
 ![blockcode_Image](000.png)
+
 - Figure 1 Blockcode for the smartphone app
 
 
@@ -187,8 +188,6 @@ While making modifications, I faced a few challenges. Initially, the Bluetooth m
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J8AVeVxN4Ks?si=VVTKKr-3qQTgz9Nr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
 
 
 
