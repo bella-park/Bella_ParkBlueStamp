@@ -28,8 +28,11 @@ For my modification, I chose to make a smartphone app that can control the robot
 # Blockcode
 ![blockcode_Image](000.png)
 - Figure 1 Blockcode for the smartphone app
+- 
 # Code
 Arduino code for the smartphone controlled robot
+
+
 ```
 #include "SoftwareSerial.h"
 #include <Servo.h>
