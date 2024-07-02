@@ -13,6 +13,7 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 
 <img src="222.png" width="300" height="400">
 
+
 # Modification
 
 <iframe width="560" height="315" src="https://youtube.com/shorts/iFkJkwpvnd0"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -26,6 +27,7 @@ For my modification, I chose to make a smartphone app that can control the robot
 
 # Blockcode
 ![blockcode_Image](000.png)
+- Figure 1 Blockcode for the smartphone app
 # Code
 Arduino code for the smartphone controlled robot
 ```
@@ -173,6 +175,7 @@ void loop() {
   }
 }
 ```
+
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J8AVeVxN4Ks?si=VVTKKr-3qQTgz9Nr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -210,9 +213,10 @@ In my first milestone, I set up the Arduino and updated the initial sketch to th
 - What your plan is to complete your project-->
 
 # Schematics 
-The wiring diagram for the joycon and the servo
+The wiring diagram for the joystick and the servo
 ![Schematics Image](0618.png)
 ![Schematics Image](0619.png)
+- Figure 2,3 Robot arm joystick, servo wiring schematics
 
 - Three Joint Robot Arm Lesson 6,7
 
