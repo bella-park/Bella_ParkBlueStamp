@@ -219,8 +219,9 @@ In my first milestone, I set up the Arduino and updated the initial sketch to th
 # Schematics 
 The wiring diagram for the joystick and the servo
 ![Schematics Image](0618.png)
+-Figure 2 Robot arm joystick wiring schematics
 ![Schematics Image](0619.png)
-- Figure 2,3 Robot arm joystick, servo wiring schematics
+- Figure 3 Robot arm servo wiring schematics
 
 - Three Joint Robot Arm Lesson 6,7
 
