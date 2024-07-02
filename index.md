@@ -23,7 +23,7 @@ For my modification, I chose to make a smartphone app that can control the robot
 ![app_Image](111.jpg)
 
 # Blockcode
-![blockcode_Image](000.png)
+![blockcode_Image](000.png)= 250*250
 # Code
 Arduino code for the smartphone controlled robot
 ```
