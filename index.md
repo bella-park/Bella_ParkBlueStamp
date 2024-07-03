@@ -1,5 +1,6 @@
 # Three Joint Robotic Arm
-This is a three joint robotic arm controled by the Joycon.<!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!-->
+This is a three-joint robotic arm controlled by the Joystick. The Joystick can control the robot to move forward, backward, clockwise, and counterclockwise, and move the claws open and close. The servos in the robot work as the joints of the robot.
+<!---Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!-->
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
