@@ -8,7 +8,7 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Bella P | Valley Christian High School | Electrical Engineering | Incoming 
+| Bella P | Valley Christian High School | Electrical Engineering | Incoming sophomore
 
 
 <img src="222.png" width="300" height="400">
@@ -24,11 +24,12 @@ For my modification, I chose to make a smartphone app that can control the robot
 # Final Smartphone App
 
 <img src="111.jpg" width="377" height="679">
+- Figure 1 Robot control smartphone app
 
 # Blockcode
 ![blockcode_Image](000.png)
 
-- Figure 1 Blockcode for the smartphone app
+- Figure 2 Blockcode for the smartphone app
 
 
   # Code
@@ -222,11 +223,11 @@ In my first milestone, I set up the Arduino and updated the initial sketch to th
 # Schematics 
 The wiring diagram for the joystick and the servo
 ![Schematics Image](0618.png)
-- Figure 2 Robot arm joystick wiring schematics
+- Figure 3 Robot arm joystick wiring schematics
 ![Schematics Image](0619.png)
-- Figure 3 Robot arm servo wiring schematics
+- Figure 4 Robot arm servo wiring schematics
 ![Schematics Image](444.png)
-- Figure 4 The Nano shield schematics
+- Figure 5 The Nano shield schematics
 
   *Three Joint Robot Arm Lesson 3,6,7
 
