@@ -9,7 +9,7 @@ This is a three-joint robotic arm controlled by the Joystick. The Joystick can c
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Bella P | Valley Christian High School | Electrical Engineering | Incoming sophomore
+| Bella P | Valley Christian High School | Electrical Engineering | Incoming Sophomore |
 
 
 <img src="222.png" width="300" height="400">
