@@ -16,10 +16,13 @@ This is a three joint robotic arm controled by the Joycon.<!---Replace this text
 # Modification
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8mE1OGyaFY?si=xcCBO4-hb9pp1IzI"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe
+
                                                                                                                                                                                                                                                                                                                                   
 # Modification Milestone
 
+
 <iframe width="560" height="315" src=https://www.youtube.com/embed/72cctQHoSlU?si=gb2BDBaVj0A7jFy6"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 
 I created a smartphone app to control the robot arm as part of my modification. Prior to this, I could only control the robot using a joystick. However, after reaching a milestone, I was able to use a single code through the smartphone app to control the robot. I developed the app using the MIT App Inventor. Initially, I designed a joystick controller app which had the joystick in the middle to control the robot. However, the joystick app caused the Bluetooth to disconnect and prevented the robot from functioning properly. As a solution, I created a button app with a total of eight buttons, each controlling a specific servo. After creating a block code using the MIT App Inventor, I developed two different Arduino codes, one for Bluetooth and the other for the joystick controller. I then combined the two codes to enable both the joystick and the button app to work using a single code. Following troubleshooting, I successfully managed to control the robot using both the button app and the joystick simultaneously.
