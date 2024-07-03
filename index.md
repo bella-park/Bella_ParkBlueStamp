@@ -445,10 +445,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 
 # Other Resources
-- [Resource 1](https://docs.arduino.cc/built-in-examples/digital/Button/) Arduino wire and program button
-- [Resource 2](https://www.circuitgeeks.com/arduino-push-button-tutorial/) Arduino LED button tutorial
-- [Resource 3](https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-05-bluetooth-module-tutorial/) Arduino bluetooth communication
-- [Resource 4](https://learn.adafruit.com/adafruit-proto-shield-arduino) Adafruit Proto Shield for Arduino
+- [Arduino wire and program button](https://docs.arduino.cc/built-in-examples/digital/Button/)
+- [Arduino LED button tutorial](https://www.circuitgeeks.com/arduino-push-button-tutorial/) 
+- [Arduino bluetooth communication](https://howtomechatronics.com/tutorials/arduino/arduino-and-hc-05-bluetooth-module-tutorial/) 
+- [Adafruit Proto Shield for Arduino](https://learn.adafruit.com/adafruit-proto-shield-arduino) 
 
 # The Starter Project
 
