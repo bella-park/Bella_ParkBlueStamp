@@ -439,7 +439,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Robot Arm Building Kit | Kit for the Three Joint Robot Arm | $49.99 | https://a.co/d/gg8BK4x |
 | SG90 Servo | Servos 2,3,4 | $6.99 | https://a.co/d/0dJCQ7gg |
 | MG90S Servo | Servo 1 | $6.59 | https://a.co/d/0dDNN2uW |
-| AA betteries | Betteries for the Robot Arm | $6.82 | https://a.co/d/09CCthYv |
+| AA batteries | Batteries for the Robot Arm | $6.82 | https://a.co/d/09CCthYv |
+| Bluetooth module | Connecting the smartphone app to the arduino code | $10 | <a href="https://a.co/d/09vWw6uf> Link </a> |
 
 
 # Other Resources
