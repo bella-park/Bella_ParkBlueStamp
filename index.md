@@ -436,10 +436,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Robot Arm Building Kit | Kit for the Three Joint Robot Arm | $49.99 | https://a.co/d/gg8BK4x |
-| SG90 Servo | Servos 2,3,4 | $6.99 | https://a.co/d/0dJCQ7gg |
-| MG90S Servo | Servo 1 | $6.59 | https://a.co/d/0dDNN2uW |
-| AA batteries | Batteries for the Robot Arm | $6.82 | https://a.co/d/09CCthYv |
+| Robot Arm Building Kit | Kit for the Three Joint Robot Arm | $49.99 |  <a href="https://a.co/d/gg8BK4x"> Link </a> |
+| SG90 Servo | Servos 2,3,4 | $6.99 | <a href="https://https://a.co/d/0dJCQ7gg"> Link </a> |
+| MG90S Servo | Servo 1 | $6.59 | <a href=" https://a.co/d/0dDNN2uW"> Link </a> |
+| AA batteries | Batteries for the Robot Arm | $6.82 | <a href="https://a.co/d/09CCthYv"> Link </a> |
 | Bluetooth module | Connecting the smartphone app to the arduino code | $10 | <a href="https://a.co/d/09vWw6uf"> Link </a> |
 
 
